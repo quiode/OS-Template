@@ -23,7 +23,7 @@ This is not tested as the GitHub Cli doesn't work on my machine.
 ```bash
 gh clone quiode/!THEOS!
 cd !THEOS!/scripts/main
-chmod +x get install.sh set
+chmod +x get.sh install.sh set.sh
 ./install.sh
 ```
 
@@ -32,7 +32,7 @@ chmod +x get install.sh set
 ```bash
 git clone https://github.com/quiode/THEOS!
 cd !THEOS!/scripts/main
-chmod +x get install.sh set
+chmod +x get.sh install.sh set.sh
 ./install.sh
 ```
 
