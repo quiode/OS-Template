@@ -2,9 +2,13 @@
 
 # Table of Contents
 
-1. [Introduction](#introduction)
-1. [Installation](#installation)
-1. [Usage](#usage)
+- [!THEOS!](#theos)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Installation](#installation)
+  - [Using the GitHub CLI](#using-the-github-cli)
+  - [Using Git](#using-git)
+- [Usage](#usage)
 
 # Introduction
 
@@ -18,7 +22,7 @@ This is not tested as the GitHub Cli doesn't work on my machine.
 
 ```bash
 gh clone quiode/!THEOS!
-cd !THEOS!/scripts
+cd !THEOS!/scripts/main
 chmod +x get install set
 ./install
 ```
@@ -27,13 +31,13 @@ chmod +x get install set
 
 ```bash
 git clone https://github.com/quiode/THEOS!
-cd !THEOS!/scripts
+cd !THEOS!/scripts/main
 chmod +x get install set
 ./install
 ```
 
 # Usage
 
-- Install the dotfiles with [install](./scripts/install).
-- Update the dotfiles on the system with the files in the repository with [update](./scripts/set).
-- Update the dotfiles in the repository with the files in the system with [update](./scripts/get).
+- Install the dotfiles with [install](./scripts/main/install).
+- Update the dotfiles on the system with the files in the repository with [update](./scripts/main/set).
+- Update the dotfiles in the repository with the files in the system with [update](./scripts/main/get).
