@@ -23,8 +23,8 @@ This is not tested as the GitHub Cli doesn't work on my machine.
 ```bash
 gh clone quiode/!THEOS!
 cd !THEOS!/scripts/main
-chmod +x get install set
-./install
+chmod +x get install.sh set
+./install.sh
 ```
 
 ## Using [Git](https://git-scm.com/)
@@ -32,12 +32,12 @@ chmod +x get install set
 ```bash
 git clone https://github.com/quiode/THEOS!
 cd !THEOS!/scripts/main
-chmod +x get install set
-./install
+chmod +x get install.sh set
+./install.sh
 ```
 
 # Usage
 
-- Install the dotfiles with [install](./scripts/main/install).
-- Update the dotfiles on the system with the files in the repository with [update](./scripts/main/set).
-- Update the dotfiles in the repository with the files in the system with [update](./scripts/main/get).
+- Install the dotfiles with [install](./scripts/main/install.sh).
+- Update the dotfiles on the system with the files in the repository with [update](./scripts/main/set.sh).
+- Update the dotfiles in the repository with the files in the system with [update](./scripts/main/get.sh).
